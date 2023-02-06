@@ -39,7 +39,7 @@ export default function Project() {
           className="lg:h-screen h-full content-center grid experience lg:pt-5 pt-28"
         >
           <div className="text-center">
-            <h2 className="text-4xl inline border-b-4 border-gray-300 font-bold text-pink-900">
+            <h2 className="text-4xl inline border-b-4 border-pink-200 font-bold text-pink-900 dark:text-pink-300 dark:border-slate-600">
               پروژه های متن باز
             </h2>
           </div>

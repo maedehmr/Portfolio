@@ -55,15 +55,15 @@ export default function Home() {
             ))}
           </ul>
           <ul className="flex items-center mr-auto">
-            <li className="bg-pink-50 ml-4 p-1 rounded-md hover:scale-105">
+            <li className="bg-pink-50 dark:bg-pink-700 ml-4 p-1 rounded-md hover:scale-105">
               <BsFillMoonStarsFill
                 onClick={() => setDarkMode(!darkMode)}
-                className=" cursor-pointer text-2xl text-slate-900 p-0.5 "
+                className=" cursor-pointer text-2xl text-slate-900 p-0.5 dark:text-slate-50"
               />
             </li>
             <li>
               <a
-                className="md:block hidden bg-gradient-to-r from-pink-100 text-sm to-pink-50 text-pink-900 px-4 py-2 border-none rounded-md ml-8 hover:scale-105 hover:from-pink-50 hover:to-pink-100 duration-200"
+                className="md:block hidden bg-gradient-to-r from-pink-100 text-sm font-medium to-pink-50 text-pink-900 px-4 py-2 border-none rounded-md ml-8 hover:scale-105 hover:from-pink-50 hover:to-pink-100 duration-200"
                 href="/public/resume.pdf" download
               >
                 دانلود رزومه
@@ -98,15 +98,15 @@ export default function Home() {
           )}
         </nav>
       </header>
-      <main className="bg-pink-50 lg:px-32 px-10">
+      <main className="bg-pink-50 lg:px-32 px-10 dark:bg-slate-800">
         <About />
         <Skill />
         <Project/>
 <Contact/>
       </main>
       <footer>
-        <div class="text-center p-5 bg-pink-900">
-          <span class="text-white">&copy; 2022 Copyright - </span>
+        <div class="text-center p-5 bg-pink-900 dark:bg-slate-900">
+          <span class="text-slate-100">&copy; 2022 Copyright - </span>
           <a class="text-white font-bold" href="#">
             Maedeh morajabi
           </a>
