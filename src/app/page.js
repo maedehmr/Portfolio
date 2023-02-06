@@ -64,7 +64,7 @@ export default function Home() {
             <li>
               <a
                 className="md:block hidden bg-gradient-to-r from-pink-100 text-sm to-pink-50 text-pink-900 px-4 py-2 border-none rounded-md ml-8 hover:scale-105 hover:from-pink-50 hover:to-pink-100 duration-200"
-                href="#"
+                href="/public/resume.pdf" download
               >
                 دانلود رزومه
               </a>
@@ -78,7 +78,7 @@ export default function Home() {
           </div>
 
           {nav && (
-            <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
+            <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-pink-900 text-slate-100">
               {links.map(({ id, link, text }) => (
                 <li
                   key={id}

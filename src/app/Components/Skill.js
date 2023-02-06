@@ -77,7 +77,7 @@ export default function Skill() {
         <section>
         <div
           name="portfolio"
-          className="lg:h-screen h-full content-center grid portfolio"
+          className="lg:h-screen h-full content-center grid portfolio lg:pt-5 pt-28"
         >
           <div className="text-center">
             <h2 className="text-4xl inline border-b-4 border-gray-300 font-bold text-pink-900">

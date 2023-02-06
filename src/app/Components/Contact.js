@@ -8,7 +8,7 @@ export default function Contact() {
     return(
 <div
   name="contact"
-  className="contact flex flex-col justify-center lg:h-screen h-full p-4"
+  className="contact flex flex-col justify-center lg:h-screen h-full p-4 lg:pt-5 pt-28 lg:pb-10 pb-28"
 >
   <div className="text-center mb-10">
     <h2 className="text-4xl inline border-b-4 border-gray-300 font-bold text-pink-900">
