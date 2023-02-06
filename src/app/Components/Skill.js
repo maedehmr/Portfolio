@@ -87,7 +87,7 @@ export default function Skill() {
           </div>
           <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-8 mt-14 text-slate-800 dark:text-slate-200">
             {techs.map(({ id, src, title, style }) => (
-              <div key={id} className={`m-auto px-16 rounded-lg shadow-lg ${style}`}>
+              <div key={id} className={`m-auto md:px-16 px-5 rounded-lg shadow-lg ${style}`}>
                 <img src={src} alt="" width="90px" />
                 <h4 className="text-center my-3 text-lg">{title}</h4>
               </div>
