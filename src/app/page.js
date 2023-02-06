@@ -55,10 +55,10 @@ export default function Home() {
             ))}
           </ul>
           <ul className="flex items-center mr-auto">
-            <li>
+            <li className="bg-pink-50 ml-4 p-1 rounded-md hover:scale-105">
               <BsFillMoonStarsFill
                 onClick={() => setDarkMode(!darkMode)}
-                className=" cursor-pointer text-2xl ml-4"
+                className=" cursor-pointer text-2xl text-slate-900 p-0.5 "
               />
             </li>
             <li>
@@ -98,7 +98,7 @@ export default function Home() {
           )}
         </nav>
       </header>
-      <main className="bg-slate-100 lg:px-32 px-10">
+      <main className="bg-pink-50 lg:px-32 px-10">
         <About />
         <Skill />
         <Project/>

@@ -7,7 +7,7 @@ return(
     className="flex flex-col lg:flex-row items-center lg:h-screen h-full home"
   >
     <div className="lg:w-3/5 w-full mt-8">
-      <h1 className="text-4xl mb-8 text-slate-900">
+      <h1 className="text-4xl mb-8 text-pink-900 font-black">
         برنامه نویس فرانت اند
       </h1>
       <p className=" text-lg w-full lg:w-7/8 text-slate-600">
@@ -19,24 +19,30 @@ return(
         جامعه و متخصصان را می طلبد
       </p>
       <div className="flex justify-center lg:justify-start mt-10">
+        <a href="#">
         <img
-          className="ml-14"
+          className="ml-14 hover:scale-105"
           src="./img/linkedin-svgrepo-com.svg"
           alt=""
-          width="65px"
+          width="60px"
         />
+        </a>
+        <a href="#">
         <img
-          className="ml-14"
+          className="ml-14 hover:scale-105"
           src="./img/github-svgrepo-com (1).svg"
           alt=""
-          width="65px"
+          width="60px"
         />
+        </a>
+        <a href="#">
         <img
-          className="ml-14"
+          className="ml-14 hover:scale-105"
           src="./img/dribbble-svgrepo-com.svg"
           alt=""
-          width="65px"
+          width="60px"
         />
+        </a>
       </div>
     </div>
     <div className="w-2/5 flex justify-end order-first lg:order-last">

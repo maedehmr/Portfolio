@@ -80,7 +80,7 @@ export default function Skill() {
           className="lg:h-screen h-full content-center grid portfolio"
         >
           <div className="text-center">
-            <h2 className="text-4xl inline border-b-4 border-gray-300">
+            <h2 className="text-4xl inline border-b-4 border-gray-300 font-bold text-pink-900">
               مهارت های فنی
             </h2>
           </div>

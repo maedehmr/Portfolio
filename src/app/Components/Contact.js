@@ -11,7 +11,7 @@ export default function Contact() {
   className="contact flex flex-col justify-center lg:h-screen h-full p-4"
 >
   <div className="text-center mb-10">
-    <h2 className="text-4xl inline border-b-4 border-gray-300">
+    <h2 className="text-4xl inline border-b-4 border-gray-300 font-bold text-pink-900">
       ارتباط با من
     </h2>
   </div>
@@ -29,21 +29,21 @@ export default function Contact() {
         name="name"
         placeholder="نام خود را وارد کنید"
         required
-        className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+        className="p-2 bg-transparent border-2 rounded-md text-slate-800 focus:outline-none"
       />
       <input
         type="email"
         name="email"
         placeholder="ایمیل خود را وارد کنید"
         required
-        className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+        className="my-4 p-2 bg-transparent border-2 rounded-md text-slate-800 focus:outline-none"
       />
       <textarea
         name="message"
         placeholder="پیام خود را وارد کنید"
         rows="10"
         required
-        className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+        className="p-2 bg-transparent border-2 rounded-md text-slate-800 focus:outline-none"
       ></textarea>
 
       <button
